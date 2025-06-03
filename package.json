@@ -1,0 +1,7 @@
+{
+  "name": "kamigo",
+  "private": true,
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}

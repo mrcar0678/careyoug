@@ -1,0 +1,13 @@
+current directory: C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/mimemagic-0.3.9/ext/mimemagic
+C:/Ruby31-x64/bin/ruby.exe -IC:/Ruby31-x64/lib/ruby/3.1.0 -rrubygems C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=C:/Ruby31-x64/lib/ruby/gems/3.1.0/extensions/x64-mingw-ucrt/3.1.0/mimemagic-0.3.9 RUBYLIBDIR\=C:/Ruby31-x64/lib/ruby/gems/3.1.0/extensions/x64-mingw-ucrt/3.1.0/mimemagic-0.3.9
+rake aborted!
+Could not find MIME type database in the following locations: ["/usr/local/share/mime/packages/freedesktop.org.xml", "/opt/homebrew/share/mime/packages/freedesktop.org.xml", "/usr/share/mime/packages/freedesktop.org.xml"]
+
+Ensure you have either installed the shared-mime-info package for your distribution, or
+obtain a version of freedesktop.org.xml and set FREEDESKTOP_MIME_TYPES_PATH to the location
+of that file.
+
+Tasks: TOP => default
+(See full trace by running task with --trace)
+
+rake failed, exit code 1
