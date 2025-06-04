@@ -2,7 +2,9 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '~> 3.3.1'
-
+gem 'base64'
+gem 'bigdecimal'
+gem 'mutex_m'
 #gem 'mimemagic', '~> 0.3.3'
 #gem 'mimemagic', '~> 0.4.2'
 
