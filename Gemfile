@@ -2,11 +2,13 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '~> 3.3.1'
+
+#gem 'mimemagic', '~> 0.3.3'
+#gem 'mimemagic', '~> 0.4.2'
+
 gem 'base64'
 gem 'bigdecimal'
 gem 'mutex_m'
-#gem 'mimemagic', '~> 0.3.3'
-#gem 'mimemagic', '~> 0.4.2'
 
 gem 'nokogiri', '~> 1.10', '>= 1.10.3'
 
@@ -44,9 +46,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-#group :production do
- #gem 'pg'
-#end
+group :production do
+  gem 'pg'
+end
 
 group :development, :test do
  gem 'sqlite3'
