@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    base64
+    bigdecimal
+    mutex_m
     actioncable (7.0.4)
       actionpack (= 7.0.4)
       activesupport (= 7.0.4)
