@@ -6,9 +6,6 @@ ruby '~> 3.3.1'
 #gem 'mimemagic', '~> 0.3.3'
 #gem 'mimemagic', '~> 0.4.2'
 
-gem 'base64'
-gem 'bigdecimal'
-gem 'mutex_m'
 
 gem 'nokogiri', '~> 1.10', '>= 1.10.3'
 
