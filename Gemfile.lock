@@ -229,9 +229,7 @@ GEM
     zeitwerk (2.6.6)
 
 PLATFORMS
-  arm64-darwin-23
-  x64-mingw-ucrt
-  x86_64-linux
+  
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
