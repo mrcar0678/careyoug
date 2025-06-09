@@ -7,7 +7,7 @@ ruby '~> 3.3.1'
 #gem 'mimemagic', '~> 0.4.2'
 
 
-gem 'nokogiri', 
+gem 'nokogiri'
 
 gem 'crass', '~> 1.0', '>= 1.0.4'
 
